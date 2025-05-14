@@ -3,7 +3,7 @@ tmp_dir = "tmp"
 
 [build]
   bin = "tmp/main"
-  cmd = "go build -o ./tmp/main ."
-  exclude_dir = ["tmp", "client"]
+  cmd = "go build -o ./tmp/main ./cmd/*.go"
+  exclude_dir = ["tmp", "web"]
   include_ext = ["go"]
   ignore = ["tmp/*"]  

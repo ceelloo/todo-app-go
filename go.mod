@@ -1,4 +1,4 @@
-module github.com/ceelloo/todo
+module github.com/ceelloo/todo-app-go
 
 go 1.24.3
 
